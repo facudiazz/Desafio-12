@@ -1,0 +1,159 @@
+body {
+  font-family: "Helvetica Neue", sans-serif;
+  background-color: #121212;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #1f1f1f;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  margin-top: 1rem;
+}
+
+.contact {
+  padding-bottom: 1rem;
+}
+
+h1 {
+  color: #007bff;
+  text-align: center;
+  font-size: 2.5rem;
+  padding-bottom: 1rem;
+}
+
+form,
+.contact {
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #2d2d2d;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 10px;
+  margin-top: 1rem;
+  color: #fff;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"] {
+  width: 97%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #007bff;
+  border-radius: 5px;
+  background-color: #333;
+  color: #fff;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background-color: #2d2d2d;
+  padding: 20px;
+  margin: 15px 0;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li button {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+li button:hover {
+  background-color: #c82333;
+}
+
+#confirmationMessage {
+  background-color: green;
+  color: #fff;
+  text-align: center;
+  padding: 12px;
+  display: none;
+  font-weight: bold;
+  max-width: 800px;
+  margin: 1rem auto;
+  border-radius: 5px;
+}
+
+#errorMessages {
+  background-color: red;
+  color: #fff;
+  text-align: center;
+  padding: 12px;
+  display: none;
+  font-weight: bold;
+  max-width: 800px;
+  margin: 1rem auto;
+  border-radius: 5px;
+}
+
+.contact-id {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
+
+  li {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  li button {
+    margin-top: 10px;
+  }
+}
+
+.error {
+  color: red;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  padding: 1rem 0;
+}
+
+body {
+  background-image: linear-gradient(90deg, #333, #000);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
